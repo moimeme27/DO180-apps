@@ -1,5 +1,3 @@
-
-Hello Github
     1  exit
     2  ps -ef 
     3  ps -ef | grep dnf
@@ -272,3 +270,17 @@ Hello Github
   270  cd DO180-apps/
   271  ll
   272  history >> testbenoit 
+  273  history |grep git
+  274  git config --global credential.helper cache
+  275  git push --set-upstream origin mytestbrancheDO180
+  276  git add testbenoit
+  277  git commit
+  278  git push
+  279  git checkout -b mytestbrancheDO180
+  280  git add testbenoit
+  281  git push --set-upstream origin mytestbrancheDO180
+  282  git status
+  283  git commit -m "history"
+  284  git push
+  285  history |grep git
+  286  history > testbenoit 
