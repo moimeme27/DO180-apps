@@ -455,3 +455,15 @@
   455  git push
   456  ll
   457  history > history 
+  458  ll
+  459  git add history 
+  460  git push
+  461  git pull
+  462  git config --global
+  463  git push history
+  464  git push --set-upstream origin mytestbrancheDO180
+  465  git add history
+  466  git pull
+  467  git pull origin
+  468  git config pull.rebase false
+  469  history > historiqueOS
